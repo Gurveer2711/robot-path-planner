@@ -1,0 +1,45 @@
+# Node / dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Vite / cache
+.vite/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Logs
+logs
+*.log
+*.log.*
+npm-cache/
+pnpm-store/
+yarn-cache/
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Environment / secrets (if you add them later)
+.env
+.env.*.local
+
+# Vercel (keep .vercel if you want to share project config)
+.vercel/
